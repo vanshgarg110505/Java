@@ -23,3 +23,7 @@ class Main {
         }
     }
 }
+/*
+    Input :- 5
+    Ouput :- 5 is a prime number
+*/
