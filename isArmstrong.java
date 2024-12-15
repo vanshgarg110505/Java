@@ -25,3 +25,7 @@ class Main {
         }
     }
 }
+/*
+    Input :- 153
+    Ouput :- 153 is an armstrong number
+*/
