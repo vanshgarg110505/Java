@@ -17,3 +17,9 @@ class Main {
         System.out.print(fib);
     }
 }
+
+
+/*
+Input :- 7
+Output :- 13
+*/
