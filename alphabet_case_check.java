@@ -11,3 +11,9 @@ class Main {
         }
     }
 }
+
+
+/*
+    Input :- Vansh
+    Ouput :- Uppercase
+*/
