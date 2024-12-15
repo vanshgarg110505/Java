@@ -12,3 +12,7 @@ class Main {
         arr[index2] = temp;
     }
 }
+
+/*
+    Output :- [1,12,9,3,18]
+*/
