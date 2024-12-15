@@ -15,3 +15,12 @@ class Main {
         System.out.print(count);
     }
 }
+
+
+/*
+    Input :- 
+    222134
+    2
+
+    Output :- 3   (2 occurs 3 times)
+*/
