@@ -5,7 +5,7 @@ class Main {
     }
     
     static boolean isPalindrome(String str){
-        if(str == null || str.length == 0){
+        if(str == null || str.length() == 0){
             return true;
         }
         str = str.toLowerCase();
