@@ -5,16 +5,17 @@ public class Main {
       int n = 12321;
       System.out.print(isPalindrome(n));
     }
-    static int reverse(int n){
-      int ans = 0;
-      while(n>0){
-        int rem = n%10;
-        n = n / 10;
-        ans = ans*10+rem;
-      }
-      return ans;
-    }
     static boolean isPalindrome(int n){
-      return n == reverse(n);
+      String str = Integer.toString(n);
+      int start = 0;
+      int end = str.length() - 1;
+      while(start < end){
+        if(str.charAt(start) != str.charAt(end)){
+          return false;
+        }
+        start++;
+        end--;
+      }
+      return true;
     }
 } 
