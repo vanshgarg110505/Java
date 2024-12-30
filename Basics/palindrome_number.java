@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int n = 1234321;
-        if(reverse(n)){
+        if(isPalindrome(n)){
           System.out.print(n + " is a palindrome");
         }
         else{
@@ -9,7 +9,7 @@ public class Main {
         }
     }
 
-    static boolean reverse(int n){
+    static boolean isPalindrome(int n){
       int original = n;
       int ans = 0;
       while(n>0){
